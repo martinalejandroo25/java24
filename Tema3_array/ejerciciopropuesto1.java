@@ -15,5 +15,6 @@ public class ejerciciopropuesto1 {
             conta+=salario[i];
         }
         System.out.println("La media de los salarios es de "+conta/salario.length);
+        sc.close();
     }
 }
