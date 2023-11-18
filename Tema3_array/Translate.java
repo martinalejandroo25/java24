@@ -5,10 +5,9 @@ import java.util.Arrays;
 public class Translate {
     public static String translate(String palabra) {
         String trad= "";
-        String espanol[]= {"Perro", "Agua", "Animal", "casa", "hola"
-        };
-        String ingles[]={"Dog","Water","Animal","house","Hello"};
-
+        String espanol[]= {"Perro", "Agua", "gato", "casa", "hola", "adios", "ella", "el", "solo" };
+        String ingles[]={"Dog","Water","cat","house","Hello","goodbye", "she", "he", "alone"};
+        
         int posicion = -1;
         for (int i = 0; i < espanol.length; i++) {
             if(espanol[i]== palabra) {
@@ -28,3 +27,4 @@ public class Translate {
        System.out.println();
     }
 }
+
