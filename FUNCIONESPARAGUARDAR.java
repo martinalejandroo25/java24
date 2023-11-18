@@ -1,5 +1,3 @@
-package java24;
-
 import java.util.Scanner;
 
 public class FUNCIONESPARAGUARDAR {
