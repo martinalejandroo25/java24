@@ -1,7 +1,7 @@
 package Tema3_array.EjerciciosIntroduccionALaProgramacion;
 import java.util.Scanner;
 import java.util.Arrays;
-public class ejercicio11Array {
+public class ejercicio1Array {
     /*Crea un vector de 5 elementos de cadenas de caracteres,
      *  inicializa el vector con datos leídos por teclado.
      * Copia los elementos del vector en otro, pero en orden inverso
