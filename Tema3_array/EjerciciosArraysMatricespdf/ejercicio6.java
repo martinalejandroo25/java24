@@ -12,13 +12,21 @@ public class ejercicio6 {
     }
     public static void main(String[] args) throws Exception {
         
-        int num[]=new int[10];
-    
-            for (int i = 0; i < num.length; i++) {
-                
-                num[i]=generarNumero(1, 100);
-            }
-            System.out.println(Arrays.toString(num));
+        int num[] = new int[10];
+
+        for (int i = 0; i < num.length; i++) {
+            
+            num[i]=generarNumero(1, 100);
+        }
+        System.out.println(Arrays.toString(num));
+        System.out.print("[");
+        for (int i = 0; i < num.length/2; i++) {
+        System.out.print(num[i]+", ");
+        System.out.print(num[num.length-1-i]+", ");
+        }
+        System.out.print("]");
+            
     }
+    
 
 }
