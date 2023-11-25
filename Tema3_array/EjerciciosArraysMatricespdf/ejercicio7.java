@@ -15,25 +15,35 @@ public static int generarNumero(int min, int max) throws Exception {
 
     return  (int) ((Math.random() * (max - min + 1) + min)) ;
 }
+    public static int[] eliminarElemento(int array[], int posicion){
+        if(posicion<0 || posicion>=array.length) {
+            return array; //Si la posición no fuera válida, devolver el array
+        }
+        //Crear un nuevo array con menor tamaño
+        int[] arraymod = new int[array.length-1];
+        //copiar los elementos antes de la posicion especificada
+        for (int i = 0; i < posicion; i++) {
+            arraymod[i] = array[i];
+        }
+        for (int i = posicion+1; i < array.length; i++) {
+            arraymod[i-1] = array[i];
+        }
+        return arraymod;
+    }
     public static void main(String[] args) throws Exception {
     Scanner sc = new Scanner(System.in);
         int tabla[] = new int [10];
+        int posicion;
     for (int i = 0; i < tabla.length; i++) {
         tabla[i] = generarNumero(1, 100);
     }        
     System.out.println(Arrays.toString(tabla));
     
     System.out.println("Elige la posición que deseas eliminar, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9");
+    posicion = Integer.parseInt(sc.nextLine());
+    System.out.println("Eliminado con éxito");
+    System.out.println(Arrays.toString(eliminarElemento(tabla, posicion)));
     
-    int posicion = Integer.parseInt(sc.nextLine());
-        switch (posicion) {
-            case 0:
-                tabla[0] =
-                break;
-        
-            default:
-                break;
-        } 
     }
 
 }
