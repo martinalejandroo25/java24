@@ -11,7 +11,7 @@ public class ejercicio5 {
         String posicion[]={"primero", "segundo", "tercer", "cuarto", "quinto","sexto", "septimo", "octavo", "noveno", "decimo"};
         Scanner sc= new Scanner(System.in);
         try {
-           for (int i = 0; i < num.length; i++) {
+            for (int i = 0; i < num.length; i++) {
             System.out.println("Dame el "+posicion[i]+" numero");
             num[i]=Integer.parseInt(sc.nextLine());
                 

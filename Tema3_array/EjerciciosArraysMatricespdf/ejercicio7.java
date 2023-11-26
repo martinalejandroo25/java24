@@ -10,15 +10,21 @@ public class ejercicio7 {
     public static void main(String[] args) {
         int tabla[] = new int[5];
         Scanner sc = new Scanner(System.in);
-        int posicion=Integer.parseInt(sc.nextLine());
         int temp=0;
+        String posicion[]={"primero", "segundo", "tercer", "cuarto", "quinto"};
+        
         for (int i = 0; i < tabla.length; i++) {
+            System.out.println("Dime el "+posicion[i]+" número para la tabla");
             tabla[i] = Integer.parseInt(sc.nextLine());
         }
         System.out.println(Arrays.toString(tabla));
-        for (int i = posicion; i < tabla.length; i++) {
-            temp = tabla[i];
-            
+        temp = tabla[tabla.length-1];
+        for (int i = 4; i > 0; i--) {
+            tabla[i] = tabla [i+1];
+            tabla [0] = temp;
         }
+        tabla[0] = temp;
+        System.out.println();Arrays.toString(tabla);
+        System.out.println(Arrays.toString(tabla));
     }
 }
