@@ -47,7 +47,7 @@ public class ejercicio24BusquedaBinaria {
                 }
             }
         } catch (Exception e) {
-            // TODO: handle exception
+            e.getLocalizedMessage();
         }    }
 }
 //generar numero aleatorio del 1 al 100

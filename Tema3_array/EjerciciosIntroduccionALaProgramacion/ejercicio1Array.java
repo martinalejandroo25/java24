@@ -8,16 +8,16 @@ public class ejercicio1Array {
      * y muéstralo por la pantalla
      */
 
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Dame 5 palabras");
         String palabra[]=new String[5];
         String inverso[]=new String[palabra.length];
-        Scanner sc= new Scanner(System.in);
-        for (int i = 0; i < palabra.length; i++) {
-            palabra[i]= sc.nextLine();
+        try (Scanner sc = new Scanner(System.in)) {
+            for (int i = 0; i < palabra.length; i++) {
+                palabra[i]= sc.nextLine();
+            }
         }
         for (int i = 0; i < inverso.length; i++) {
-            String temp=palabra[i];
             palabra[i]=palabra[palabra.length-1];
 
         }

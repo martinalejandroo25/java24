@@ -1,6 +1,5 @@
 package Tema3_array.EjerciciosArraysMatricespdf;
 import java.util.Scanner;
-import java.util.Arrays;
 public class ejercicio3 {
     /*Crea un array de números de un tamaño pasado por teclado, el array contendrá números 
     aleatorios entre 1 y 300

@@ -1,7 +1,6 @@
 package Tema3_array.EjerciciosArraysMatricespdf;
 import java.util.Scanner;
 import java.util.Arrays;
-import java.util.InputMismatchException;
 public class ejercicio8 {
     //Genera aleatoriamente una tabla de 10 elementos numéricos enteros(listo), guardalos en una array(listo). 
     //Luego pide por teclado una posición (entre 0 y 9). 
@@ -34,7 +33,7 @@ public static int generarNumero(int min, int max) throws Exception {
         return arraymod;
     }
     public static void main(String[] args) throws Exception {
-        try { Scanner sc = new Scanner(System.in);
+        try { try (Scanner sc = new Scanner(System.in)) {
             int tabla[] = new int [10];
             int posicion;
             for (int i = 0; i < tabla.length; i++) {
@@ -46,6 +45,7 @@ public static int generarNumero(int min, int max) throws Exception {
         posicion = Integer.parseInt(sc.nextLine());
         System.out.println("Eliminado con éxito");
         System.out.println(Arrays.toString(eliminarElemento(tabla, posicion)));
+        }
     
         } catch (NumberFormatException e) {
             System.out.println("Por favor, inserta unicamente números y en el rango proporcionado (0 al 9)");

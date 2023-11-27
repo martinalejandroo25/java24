@@ -5,7 +5,7 @@ public class pdfrepaso1 {
         Scanner sc= new Scanner(System.in);
         String palabras[]=new String[5];
         String invertido[]=new String[5];
-        String palabra="";
+        
         int contador=0;
 
 
@@ -24,5 +24,6 @@ public class pdfrepaso1 {
         for(int i=0; i<invertido.length; i++) {
             System.out.println(invertido[i]);
         }
+        sc.close();
     }
 }

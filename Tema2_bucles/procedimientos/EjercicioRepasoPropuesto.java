@@ -1,4 +1,4 @@
-package Excepciones;
+package procedimientos;
 import java.util.Scanner;
 public class EjercicioRepasoPropuesto {
 

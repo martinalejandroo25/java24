@@ -7,7 +7,7 @@ public class ejerciciopropuesto2variante {
         return num1 * num2;
     } else if (op.equals("/")) {
         return num1 / num2;
-       } else {
+        } else {
             return 0;
         }
     

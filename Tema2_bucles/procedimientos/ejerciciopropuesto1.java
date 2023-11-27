@@ -7,15 +7,16 @@ public class ejerciciopropuesto1 {
         return a + b + c;
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int num1, num2, num3;
-        System.out.println("dime primer numero");
-        num1= sc.nextInt();
-        System.out.println("dime segundo numero");
-        num2= sc.nextInt();
-        System.out.println("dime tercer numero");
-        num3= sc.nextInt();
-        System.out.println(suma(num1, num2, num3));
+        try (Scanner sc = new Scanner(System.in)) {
+            int num1, num2, num3;
+            System.out.println("dime primer numero");
+            num1= sc.nextInt();
+            System.out.println("dime segundo numero");
+            num2= sc.nextInt();
+            System.out.println("dime tercer numero");
+            num3= sc.nextInt();
+            System.out.println(suma(num1, num2, num3));
+        }
 
     }
 }
