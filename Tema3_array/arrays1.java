@@ -6,18 +6,13 @@ public class arrays1 {
         }
         return (int) ((Math.random()*(max-min+1)+min));
         
-       }
+    }
     public static void main(String[] args) {
         int notas[]= new int[10]; //decalra array y di tamaño
         notas[2]=5;
         System.out.print((notas[2])+" ");
 
-        int tam=20;
-        double precios[]=new double[tam];
-
-        String nombres[]= new String[10];
-
-    for (int i = 0; i <9; i++) {
+        for (int i = 0; i <9; i++) {
         notas[i]=generarNumero(1,10);
     }/*
     for (int i = 0; i <9; i++) {

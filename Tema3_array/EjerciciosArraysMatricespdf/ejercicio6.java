@@ -22,7 +22,7 @@ public class ejercicio6 {
         System.out.print("[");
         for (int i = 0; i < num.length/2; i++) {
         System.out.print(num[i]+", ");
-        System.out.print(num[num.length-1-i]+", ");
+        System.out.print( num[num.length-1-i]+", ");
         }
         System.out.print("]");
             

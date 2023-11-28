@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         String apellidos[]= new String[5];
-        int numero;
+
         int sumaPrecios = 0;
         int precios[]= new int [3];
 
@@ -39,6 +39,8 @@ public class App {
         }
         double mediaPrecios= sumaPrecios/precios.length;
         System.out.println(mediaPrecios);
+    
+        sc.close();
     }
     
 }

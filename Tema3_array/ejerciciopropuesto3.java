@@ -34,10 +34,10 @@ public class ejerciciopropuesto3 {
         
     }
     public static boolean verificar(int dados){
-       int contador[]=new int[6];
-       for (String resultado : dados) {
+        int contador[]=new int[6];
+        for (String resultado : dados) {
         
-       }
+        }
         switch () {
             case value:
                 
