@@ -16,9 +16,9 @@ public class ejercicio10 {
     }
 
     /*Verifica si el número ya está presente en las posiciones anteriores del array*/
-    public static boolean contieneRepetido (int[] array, int indice) {
+    public static boolean contieneRepetido (int[] array, int indice, int numero) {
         for (int i = 0; i < indice; i++) {
-            if(array[i] == array[indice]) {
+            if(array[i] == numero) {
                 return true;
             }
         }
@@ -32,7 +32,7 @@ public class ejercicio10 {
         for (int i = 0; i < numLot.length; i++) {
             do {
                 numLot[i] = generarNumero(1, 49);
-            } while (contieneRepetido(numLot, i));
+            } while (contieneRepetido(numLot, i,numLot[i]));
         }
         System.out.println(Arrays.toString(numLot));
     }
