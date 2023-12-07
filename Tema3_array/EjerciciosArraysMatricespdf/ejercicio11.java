@@ -1,4 +1,4 @@
-package Tema3_array.EjerciciosArraysMatricespdf;
+package EjerciciosArraysMatricespdf;
 import java.util.Arrays;
 public class ejercicio11 {
     //Crea una tabla bidimensional de tamaño 5x5
