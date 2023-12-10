@@ -1,4 +1,4 @@
-package Tema3_array.EjerciciosIntroduccionALaProgramacion;
+package EjerciciosIntroduccionALaProgramacion;
 import java.util.Scanner;
 import java.util.Arrays;
 public class ejercicio1Array {

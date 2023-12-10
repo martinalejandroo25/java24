@@ -1,4 +1,4 @@
-package Tema3_array;
+
 import java.util.Scanner;
 public class pdfrepaso1 {
     public static void main(String[] args) {

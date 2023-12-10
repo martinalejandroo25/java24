@@ -1,4 +1,4 @@
-package Tema3_array.EjerciciosArraysMatricespdf;
+package EjerciciosArraysMatricespdf;
 import java.util.Arrays;
 public class ejercicio6 {
     public static int generarNumero(int min, int max) throws Exception {

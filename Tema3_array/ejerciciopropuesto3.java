@@ -1,4 +1,4 @@
-package Tema3_array;
+
 
 public class ejerciciopropuesto3 {
     

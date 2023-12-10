@@ -1,4 +1,4 @@
-package Tema3_array.EjerciciosArraysMatricespdf;
+package EjerciciosArraysMatricespdf;
 import java.util.Arrays;
 public class ejercicio2 {
     /*Crea una función que reciba como parámetro un array de 10 enteros, 

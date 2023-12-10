@@ -1,4 +1,4 @@
-package Tema3_array.PracticaAntesExamen;
+package PracticaAntesExamen;
 public class ejercicioDados {
     /*Dados
 Escriba un programa que genere la tirada de 2 dados (de 6 lados)--

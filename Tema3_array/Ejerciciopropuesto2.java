@@ -1,4 +1,4 @@
-package Tema3_array;
+
 import java.util.Arrays;
 /*Crea un array de 20 int y rellénalo con el número 0. Pintalo. ahora consigue que los elementos en posiciones pares tengan valor -1  */
 public class Ejerciciopropuesto2 {

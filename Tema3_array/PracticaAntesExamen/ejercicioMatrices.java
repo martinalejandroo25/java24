@@ -1,4 +1,4 @@
-package Tema3_array.PracticaAntesExamen;
+package PracticaAntesExamen;
 
 public class ejercicioMatrices {
     /*Tablero de ajedrez

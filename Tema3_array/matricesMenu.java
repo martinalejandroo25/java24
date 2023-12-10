@@ -1,4 +1,4 @@
-package Tema3_array;
+
 import java.util.Scanner;
 import java.util.InputMismatchException;
 /**

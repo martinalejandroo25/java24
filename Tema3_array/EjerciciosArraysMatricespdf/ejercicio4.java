@@ -1,4 +1,4 @@
-package Tema3_array.EjerciciosArraysMatricespdf;
+package EjerciciosArraysMatricespdf;
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.InputMismatchException;

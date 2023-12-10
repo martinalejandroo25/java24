@@ -1,4 +1,4 @@
-package Tema3_array;
+
 
 public class arrays1 {
     public static int generarNumero(int min, int max){

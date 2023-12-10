@@ -1,4 +1,4 @@
-package Tema3_array.PracticaFuera;
+package PracticaFuera;
 import java.util.Scanner;
 import java.util.Arrays;
 public class App {

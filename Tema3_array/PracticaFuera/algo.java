@@ -1,4 +1,4 @@
-package Tema3_array.PracticaFuera;
+package PracticaFuera;
 
 public class algo {
     

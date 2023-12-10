@@ -11,7 +11,7 @@ public class ejercicio3SWITCH
 
         switch (mes)
         {
-            case 1, 3, 5, 7, 8, 10, 12:
+        :
                 if (dia >=1 && dia <=31)
                     System.out.println("fecha correcta");
                 else {System.out.println("fecha incorrecta");}
@@ -21,13 +21,13 @@ public class ejercicio3SWITCH
                     System.out.println("fecha correcta");
                 else {System.out.println("fecha incorrecta");}
             break;
-          case 2:
+            case 2:
                 if (dia >=1 && dia <=28)
                     System.out.println("fecha correcta");
                 else {System.out.println("fecha incorrecta");}
             break;
             default:    
-               System.out.println("Eso no es una fecha disponible zopenco");
+                System.out.println("Eso no es una fecha disponible zopenco");
         }
 
         
