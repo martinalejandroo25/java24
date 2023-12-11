@@ -1,4 +1,4 @@
-package EjerciciosArraysMatricespdf;
+package Tema3_array.EjerciciosArraysMatricespdf;
 import java.util.Scanner;
 import java.util.Arrays;
 public class ejercicio8 {
