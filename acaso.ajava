@@ -1,0 +1,30 @@
+¡Claro! Aquí tienes una descripción más detallada de cómo algunas de las funciones realizan sus tareas:
+
+1. **`intercambiarFila`**:
+   - Utiliza la función `Arrays.copyOf` para crear una copia de la matriz original.
+   - Intercambia las filas en la copia utilizando una variable temporal.
+
+2. **`sumaColumna`**:
+   - Utiliza un bucle para sumar los valores en la columna seleccionada.
+   - Imprime un mensaje de error si la posición de la columna no es válida.
+
+3. **`sumaDiagonales`**:
+   - Utiliza dos bucles anidados para recorrer la matriz.
+   - Suma los elementos en la diagonal principal y los almacena en `sumapri`.
+   - Suma los elementos en la diagonal inversa y los almacena en `sumainv`.
+   - Retorna la suma total de ambas diagonales.
+
+4. **`pintarMayor`**:
+   - Utiliza dos bucles anidados para recorrer la matriz.
+   - Mantiene un seguimiento del número más grande y su posición en la variable `mayor` y `pos`.
+   - Retorna un array con las coordenadas `[fila, columna]` del mayor elemento.
+
+5. **`traspuesta`**:
+   - Utiliza dos bucles anidados para recorrer la matriz.
+   - Imprime cada elemento de la matriz original en una nueva posición (intercambiando filas y columnas).
+
+6. **`generarNumeroAleatorio`**:
+   - Utiliza la función `Math.random()` para generar un número decimal entre 0 y 1.
+   - Multiplica y suma para obtener un número en el rango deseado.
+   - Maneja excepciones para casos donde el mínimo es mayor que el máximo.
+

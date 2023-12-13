@@ -1,4 +1,4 @@
-package java24.primeraevaluacion;
+
 
 public class Ejercicio2 {
     /*Craps. Es un juego de dados muy facil, y consiste en arrojar la suma de 2 dados, 

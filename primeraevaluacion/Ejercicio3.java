@@ -1,4 +1,4 @@
-package java24.primeraevaluacion;
+
 import java.util.Scanner;
 
 
