@@ -27,6 +27,7 @@ public class Ejercicio3 {
     traducción. Como un diccionario. */
     
     //busca los carácteres que conforman el String
+    
     public static int busqueda(char caracter, char arr[]){
         for (int i = 0; i < arr.length; i++) {
             if (caracter == arr[i]) {
